@@ -1,7 +1,3 @@
-# CS336 — Assignment 1: Basics of Language Modeling
-
-Реализация первого задания курса [CS336: Language Modeling from Scratch](https://cs336.stanford.edu/) (Stanford, Spring 2025) — от BPE-токенизатора до обучения Transformer LM на датасете TinyStories.
-
 ## Стек
 
 - Python 3.12+, PyTorch 2.11
@@ -105,7 +101,7 @@ uv run python -m cs336_basics.app
 
 Flask-приложение с UI для генерации текста по промпту.
 
-## Реализованные компоненты задания
+## Реализованные компоненты
 
 - [x] BPE-токенизатор (обучение, encode, decode, претокенизация с regex, специальные токены, параллелизация через ProcessPoolExecutor)
 - [x] Softmax, scaled dot-product attention, cross-entropy loss
